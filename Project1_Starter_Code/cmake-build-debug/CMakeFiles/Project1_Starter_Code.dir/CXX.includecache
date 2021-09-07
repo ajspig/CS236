@@ -29,4 +29,8 @@ iostream
 -
 string
 -
+sstream
+-
+fstream
+-
 
