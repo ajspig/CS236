@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.h
+vector
+-
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
+string
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/main.cpp
+Lexer.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.h
+iostream
+-
+string
+-
+

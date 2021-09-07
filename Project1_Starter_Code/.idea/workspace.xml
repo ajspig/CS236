@@ -29,11 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Project1_Starter_Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project1_Starter_Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,8 +82,16 @@
       <updated>1630706732552</updated>
       <workItem from="1630706733587" duration="376000" />
       <workItem from="1630938195694" duration="319000" />
-      <workItem from="1630967551865" duration="985000" />
+      <workItem from="1630967551865" duration="1612000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit!">
+      <created>1631025357603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631025357603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +108,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit!" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="369" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630707005861">
       <screen x="0" y="25" width="1440" height="791" />
@@ -113,5 +121,9 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="435" y="56" key="SettingsEditor/0.25.1440.791@0.25.1440.791" timestamp="1630967770990" />
+    <state x="412" y="157" key="Vcs.Push.Dialog.v2" timestamp="1631025390751">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state x="412" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1631025390751" />
   </component>
 </project>
