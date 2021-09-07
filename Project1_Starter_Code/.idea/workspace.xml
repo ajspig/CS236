@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="Project1_Starter_Code" targetName="Project1_Starter_Code" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -29,7 +27,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!" />
+    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +39,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -56,11 +56,6 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunManager">
-    <configuration name="Project1_Starter_Code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="Project1_Starter_Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="Project1_Starter_Code">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -82,7 +77,7 @@
       <updated>1630706732552</updated>
       <workItem from="1630706733587" duration="376000" />
       <workItem from="1630938195694" duration="319000" />
-      <workItem from="1630967551865" duration="1612000" />
+      <workItem from="1630967551865" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <created>1631025357603</created>
@@ -117,6 +112,22 @@
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="369" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.791@0.25.1440.791" timestamp="1630707005861" />
+    <state width="1214" height="200" key="GridCell.Tab.0.bottom" timestamp="1631043416201">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1214" height="200" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1631043416201" />
+    <state width="1214" height="200" key="GridCell.Tab.0.center" timestamp="1631043416200">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1214" height="200" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1631043416200" />
+    <state width="1214" height="200" key="GridCell.Tab.0.left" timestamp="1631043416199">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1214" height="200" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1631043416199" />
+    <state width="1214" height="200" key="GridCell.Tab.0.right" timestamp="1631043416200">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="1214" height="200" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1631043416200" />
     <state x="435" y="56" key="SettingsEditor" timestamp="1630967770990">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
