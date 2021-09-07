@@ -1,4 +1,9 @@
 #include "Lexer.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 
 int main(int argc, char** argv) {
     //verify commandline arguments
@@ -7,11 +12,11 @@ int main(int argc, char** argv) {
         return 1;
     }
     string fileName = argv[1];
-    ifstream input(fileName);
-    if (!input.is_open()) {
-        cout << "File " << fileName << " could not be found or opened." << endl;
-        return 1;
-    }
+//    ifstream input(fileName);
+//    if (!input.is_open()) {
+//        cout << "File " << fileName << " could not be found or opened." << endl;
+//        return 1;
+//    }
     //open an ifstream object
     //read the file into a string with get and peek
 
