@@ -142,13 +142,181 @@ CMakeFiles/Project1_Starter_Code.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Token.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.cpp" -o CMakeFiles/Project1_Starter_Code.dir/Token.cpp.s
 
+CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MatcherAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MatcherAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MatcherAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: ../LeftParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/LeftParenAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/LeftParenAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/LeftParenAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o: ../RightParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RightParenAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RightParenAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RightParenAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o: ../QMarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QMarkAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QMarkAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QMarkAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/PeriodAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/PeriodAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/PeriodAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MultiplyAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MultiplyAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MultiplyAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o: ../AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/AddAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/AddAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/AddAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RulesAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RulesAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RulesAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QueriesAutomaton.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QueriesAutomaton.cpp" > CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QueriesAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.s
+
 # Object files for target Project1_Starter_Code
 Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/main.cpp.o" \
-"CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o"
+"CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o"
 
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
@@ -158,9 +326,21 @@ Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.c
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/build.make
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Project1_Starter_Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Project1_Starter_Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project1_Starter_Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

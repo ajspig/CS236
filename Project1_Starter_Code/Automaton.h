@@ -1,6 +1,8 @@
 #ifndef AUTOMATON_H
 #define AUTOMATON_H
 #include "Token.h"
+#include <sstream>
+
 
 class Automaton
 {
@@ -18,8 +20,8 @@ public:
     Automaton(TokenType type) { this->type = type; }
 
     // Start the automaton and return the number of characters read
-    //   read == 0 indicates the input was rejected
-    //   read  > 0 indicates the input was accepted
+    //   inputRead == 0 indicates the input was rejected //
+    //   inputRead  > 0 indicates the input was accepted
     int Start(const std::string& input) {
         newLines = 0;
         inputRead = 0;

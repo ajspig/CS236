@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/AddAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/AddAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Automaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -97,10 +103,76 @@
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/ColonDashAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/LeftParenAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/LeftParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MatcherAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MatcherAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MultiplyAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/MultiplyAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/PeriodAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/PeriodAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QMarkAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QMarkAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QueriesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/QueriesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RightParenAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RightParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RulesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RulesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.cpp">
