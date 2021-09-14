@@ -5,7 +5,7 @@
 #ifndef PROJECT1_STARTER_CODE_MULTIPLYAUTOMATON_H
 #define PROJECT1_STARTER_CODE_MULTIPLYAUTOMATON_H
 
-#include <Automaton.h>
+#include "Automaton.h"
 
 class MultiplyAutomaton: public Automaton {
 public:

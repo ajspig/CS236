@@ -5,7 +5,7 @@
 #ifndef PROJECT1_STARTER_CODE_QMARKAUTOMATON_H
 #define PROJECT1_STARTER_CODE_QMARKAUTOMATON_H
 
-#include <Automaton.h>
+#include "Automaton.h"
 
 class QMarkAutomaton : public Automaton {
 public:

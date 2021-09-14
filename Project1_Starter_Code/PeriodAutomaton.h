@@ -5,7 +5,7 @@
 #ifndef PROJECT1_STARTER_CODE_PERIODAUTOMATON_H
 #define PROJECT1_STARTER_CODE_PERIODAUTOMATON_H
 
-#include <Automaton.h>
+#include "Automaton.h"
 
 class PeriodAutomaton: public Automaton {
 public:
