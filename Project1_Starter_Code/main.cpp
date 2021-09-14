@@ -25,6 +25,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
     //get a pointer to associated buffer object
+    //get and peek
+    //while get peek != endfile
     filebuf* pbuf = input.rdbuf();
     //get file size using buffer's members
     size_t size = pbuf->pubseekoff(0,input.end, input.in);

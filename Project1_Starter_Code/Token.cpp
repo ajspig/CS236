@@ -58,6 +58,6 @@ string Token::enumToString(TokenType token) const {
 }
 string Token::toString() const {
     std::ostringstream output;
-    output<< "(" << enumToString(getType()) << ", \"" << description << "\", " << line << ")" << endl;
+    output<< "(" << enumToString(getType()) << ",\"" << description << "\"," << line << ")" << endl;
     return output.str();
 }

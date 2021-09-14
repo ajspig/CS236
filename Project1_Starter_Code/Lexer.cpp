@@ -69,24 +69,30 @@ string Lexer::toString() const {
 
 void Lexer::Run(string& input) {
     lineNumber = 1;
+    //set the bool isEOF to false to start off
     //while there are more characters to tokenize
     while(input.size() >0){
         maxRead = 0;
 
         Automaton *maxAutomaton = automata->front(); //set maxAutomaton to the first automaton in automata
-        //I suspect that my problem is the fact that im not updating maxAutomaton with new automatons
-        //TODO: you need to handle whitespace inbetween tokens
-        //do I say input.peek()
-        //char current = input.at(0);
+        bool newEOF = false;
+        maxAutomaton->setEOF(newEOF);
+
         while(isspace(input[0])) {
             if (input[0] == '\n') {
                 maxRead = 1;
                 lineNumber++;
                 input.erase(0, maxRead);
+                if(input.size() <= 0){
+                    break;
+                }
             } else {
                 maxRead = 1;
                 input.erase(0, maxRead);
             }
+        }
+        if(input.size() <= 0){
+            break;
         }
 
         //Here is the "Parallel" part of the algorithm
@@ -101,8 +107,14 @@ void Lexer::Run(string& input) {
         }
 
         // Here is the "Max" part of the algorithm
-
-        if (maxRead > 0) {
+        if(maxAutomaton->getEOF()){
+            //as soon as isEOF is true, we know we have an undefined token on our hands
+            //should we test it inside of this for loop? or should we do it after we have read through all of the Automaton
+            //the automaton that returns this should also return the maxRead, so we can make a substring of this
+            tokens->push_back(new Token(TokenType::UNDEFINED, input.substr(0,maxRead-1), lineNumber)); //add newToken to collection of all tokens
+            lineNumber += maxAutomaton->NewLinesRead(); //increment lineNumber by maxAutomaton.NewLinesRead()
+            break;
+        } else if (maxRead > 1) {
             Token *newToken = maxAutomaton->CreateToken(input.substr(0,maxRead),lineNumber); //set newToken to maxAutomaton.CreateToken(...)
             lineNumber += maxAutomaton->NewLinesRead(); //increment lineNumber by maxAutomaton.NewLinesRead()
             tokens->push_back(newToken); //add newToken to collection of all tokens
@@ -111,12 +123,9 @@ void Lexer::Run(string& input) {
             // Create single character undefined token
         else {
             maxRead =1;
-            //Token *newToken = nullptr; //set newToken to a  new undefined Token //99% sure this is incorrect
-            //Token *newToken = new Token(TokenType::UNDEFINED, input.at(0),lineNumber); // (with first character of input)
-            //tokens->push_back(new Token(TokenType::UNDEFINED, input.at(0), lineNumber); //add newToken to collection of all tokens
-            //TODO: fix above
+            tokens->push_back(new Token(TokenType::UNDEFINED, input.substr(0,maxRead), lineNumber)); //add newToken to collection of all tokens
+
         }
-        //tokens->push_back(new Token( tokens->at(0)->getType(), input.substr(0,maxRead), lineNumber));
 
         input.erase(0, maxRead);//remove maxRead characters from input
     }

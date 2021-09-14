@@ -3,6 +3,9 @@
 //
 
 #include "CommentAutomaton.h"
+#include <istream>
+
+//my single line comments still have /n at the end of their statements. WHy?
 
 void CommentAutomaton::S0(const std::string& input) {
     if (input[index] == '#') { //true for both comments
@@ -20,12 +23,6 @@ void CommentAutomaton::S1(const std::string& input) {
         inputRead++;
         index++;
         S3(input);
-//    }else if(input[index] != '\n') {
-//        inputRead++;
-//        index++;
-//        //this will be a single line comment
-//        //until we reach a new line it will just keep reading characters in.
-//        S1(input);
     }else{
         //as long as the first character isnt a | then it is a line comment
         inputRead++;
@@ -35,13 +32,11 @@ void CommentAutomaton::S1(const std::string& input) {
 }
 void CommentAutomaton::S2(const std::string& input) {
     // line comments!!!
-    if ((input[index] != '\n')){ // && (index >= input.size())) { //until we reach a new line or EOF just keep reading it in
+    if ((input[index] != '\n') || (index >= input.size())) { //until we reach a new line or EOF just keep reading it in
         inputRead++;
         index++;
         S2(input);
-
     }else if(input[index] == '\n'){// || index >= input.size()) {
-        inputRead++;
         newLines++;
         //we reach the end of the a SINGLE line comment
     }else{
@@ -52,23 +47,30 @@ void CommentAutomaton::S2(const std::string& input) {
     }
 }
 void CommentAutomaton::S3(const std::string& input) {
-    if (input[index] != '|') {
+    if(index >= input.size()){
+        isEOF = true;
+        newLines++;
+        //inputRead++;
+        //this is if we have reached EOF
+        //how do we send the undefined token to the lexer class?
+
+
+    }else if (input[index] != '|') {
         //keep reading the comment in
         inputRead++;
         index++;
         S3(input);
 
     }else if(input[index == '|']) {
-        inputRead++;
         index++;
         S4(input);
         //need to complete the comment
     }
 }
 void CommentAutomaton::S4(const std::string& input) {
-    if (input[index] == '#') {//this is where we split the comments out
-        //this would be a multi line comment
-        inputRead++;
+    if (input[index] == '#') {
+        //this is where the multi line comment ends
+        newLines++;
         //multi line comment complete!!
     }else{
         //not a comment

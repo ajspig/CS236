@@ -11,6 +11,8 @@ protected:
     int newLines = 0;
     unsigned int index = 0;
     TokenType type;
+    bool isEOF;
+
 
 public:
     // Default constructor -- since we have a constructor that takes a parameter,
@@ -41,6 +43,8 @@ public:
     virtual Token* CreateToken(std::string input, int lineNumber) { return new Token(type, input, lineNumber); }
 
     int NewLinesRead() const { return newLines; }
+    bool getEOF(){ return isEOF;}
+    void setEOF(bool newEOF){isEOF = newEOF;}
 };
 
 #endif // AUTOMATON_H
