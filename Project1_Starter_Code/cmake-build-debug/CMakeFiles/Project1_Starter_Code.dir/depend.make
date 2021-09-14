@@ -21,10 +21,20 @@ CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
 CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.h
 
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: ../Automaton.h
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: ../CommentAutomaton.cpp
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: ../CommentAutomaton.h
+
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: ../Token.h
+
+CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o: ../Automaton.h
+CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o: ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
+CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o: ../IDAutomaton.h
 
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: ../Token.h
@@ -36,7 +46,9 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../ColonAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../ColonDashAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../CommaAutomaton.h
+CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../CommentAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../FactsAutomaton.h
+CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../IDAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../LeftParenAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Lexer.h
@@ -48,6 +60,7 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../QueriesAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../RightParenAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../RulesAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../SchemesAutomaton.h
+CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../StringAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: ../Token.h
 
 CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o: ../Automaton.h
@@ -89,6 +102,11 @@ CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
 CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: ../Token.h
+
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: ../Automaton.h
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: ../StringAutomaton.h
 
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: ../Token.h

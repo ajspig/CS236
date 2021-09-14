@@ -21,11 +21,21 @@ CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o
  ../Token.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.h
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o
+ ../Automaton.h
+ ../Token.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommentAutomaton.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommentAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Automaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o
+ ../Automaton.h
+ ../Token.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/IDAutomaton.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/IDAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o
  ../Automaton.h
  ../Token.h
@@ -37,7 +47,9 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/ColonAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/ColonDashAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommaAutomaton.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommentAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/FactsAutomaton.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/IDAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/LeftParenAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.h
@@ -49,6 +61,7 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RightParenAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/RulesAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/StringAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Automaton.h
@@ -90,6 +103,11 @@ CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/SchemesAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o
+ ../Automaton.h
+ ../Token.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/StringAutomaton.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/StringAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h

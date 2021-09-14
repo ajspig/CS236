@@ -13,6 +13,9 @@
 #include "RightParenAutomaton.h"
 #include "RulesAutomaton.h"
 #include "QueriesAutomaton.h"
+#include "StringAutomaton.h"
+#include "CommentAutomaton.h"
+#include "IDAutomaton.h"
 
 Lexer::Lexer() {
     tokens = new std::vector<Token*>();
@@ -48,6 +51,9 @@ void Lexer::CreateAutomata() {
     automata->push_back(new RulesAutomaton());
     automata->push_back(new SchemesAutomaton());
     automata->push_back(new QueriesAutomaton());
+    automata->push_back(new CommentAutomaton());
+    automata->push_back(new IDAutomaton());
+    automata->push_back(new StringAutomaton());
 
 }
 
@@ -106,7 +112,7 @@ void Lexer::Run(string& input) {
         else {
             maxRead =1;
             //Token *newToken = nullptr; //set newToken to a  new undefined Token //99% sure this is incorrect
-            // Token *newToken = new Token(TokenType::UNDEFINED, input.at(0),lineNumber); // (with first character of input)
+            //Token *newToken = new Token(TokenType::UNDEFINED, input.at(0),lineNumber); // (with first character of input)
             //tokens->push_back(new Token(TokenType::UNDEFINED, input.at(0), lineNumber); //add newToken to collection of all tokens
             //TODO: fix above
         }

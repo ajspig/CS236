@@ -10,15 +10,16 @@ Token::Token(TokenType type, std::string description, int line) {
     this->setDescript(description);
     this->setLine(line);
 }
-
-void Token::setType(TokenType type) {
-    this->type = type;
+//for some reason I had to change all the parameters
+//not sure why
+void Token::setType(TokenType Type) {
+    this->type = Type;
 }
-void Token::setDescript(string description) {
-    this->description = description;
+void Token::setDescript(string des) {
+    this->description = des;
 }
-void Token::setLine(int line) {
-    this->line = line;
+void Token::setLine(int Line) {
+    this->line = Line;
 }
 TokenType Token::getType() const {
     return type;

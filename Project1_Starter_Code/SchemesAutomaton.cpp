@@ -60,8 +60,6 @@ void SchemesAutomaton::S3(const std::string &input) {
 void SchemesAutomaton::S6(const std::string &input) {
     if (input[index] == 's'){
         inputRead++;
-        //index++; //should I increase the index at teh very end?
-        //I dont think so
     }else {
         Serr();
     }
