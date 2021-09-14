@@ -48,7 +48,8 @@ int main(int argc, char *argv[]) {
 
     Lexer* lexer = new Lexer(); //instantiate an instance of the Lexer class
     lexer->Run(s); //pass the input to lexer class
-    cout << lexer->toString();
+    cout << lexer->toString() << endl;
+    cout << endl;
 
 
     delete lexer;//deallocate memory
