@@ -29,11 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project1_Starter_Code" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project1_Starter_Code" afterDir="false" />
-    </list>
+    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +94,7 @@
       <workItem from="1630967551865" duration="37145000" />
       <workItem from="1631388946091" duration="158000" />
       <workItem from="1631389119751" duration="2968000" />
-      <workItem from="1631551569257" duration="18192000" />
+      <workItem from="1631551569257" duration="18478000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <created>1631025357603</created>
@@ -222,15 +218,6 @@
     <state x="385" y="140" width="670" height="676" key="search.everywhere.popup/0.25.1440.791@0.25.1440.791" timestamp="1631551744527" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
-          <line>66</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="inputRead;" language="ObjectiveC" />
