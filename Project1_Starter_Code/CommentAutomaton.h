@@ -4,8 +4,8 @@
 
 #ifndef PROJECT1_STARTER_CODE_COMMENTAUTOMATON_H
 #define PROJECT1_STARTER_CODE_COMMENTAUTOMATON_H
-#include <Automaton.h>
-
+#include "Automaton.h"
+    
 class CommentAutomaton : public Automaton {
 public:
     CommentAutomaton() : Automaton(TokenType::COMMENT) {}  // Call the base constructor
