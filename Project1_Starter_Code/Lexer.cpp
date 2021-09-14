@@ -63,7 +63,7 @@ string Lexer::toString() const {
     for(unsigned int i =0; i < tokens->size(); i++){
         output << tokens->at(i)->toString();
     }
-    output << "Total Tokens = " << tokens->size();
+    output << "Total Tokens = " << tokens->size() << endl;
     return output.str();
 }
 
