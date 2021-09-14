@@ -31,7 +31,9 @@
   <component name="ChangeListManager">
     <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/IDAutomaton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/AddAutomaton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommaAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/CommaAutomaton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeftParenAutomaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/LeftParenAutomaton.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <workItem from="1630967551865" duration="37145000" />
       <workItem from="1631388946091" duration="158000" />
       <workItem from="1631389119751" duration="2968000" />
-      <workItem from="1631551569257" duration="8902000" />
+      <workItem from="1631551569257" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <created>1631025357603</created>
@@ -206,10 +208,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1631393480925" />
-    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1631204846351">
+    <state x="421" y="205" width="601" height="490" key="find.popup" timestamp="1631638464952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1631204846351" />
+    <state x="421" y="205" width="601" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1631638464952" />
     <state x="385" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1631551744527">
       <screen x="0" y="25" width="1440" height="791" />
     </state>

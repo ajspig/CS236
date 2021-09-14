@@ -5,7 +5,7 @@
 #ifndef PROJECT1_STARTER_CODE_ADDAUTOMATON_H
 #define PROJECT1_STARTER_CODE_ADDAUTOMATON_H
 
-#include <Automaton.h>
+#include "Automaton.h"
 
 class AddAutomaton: public Automaton {
 public:
