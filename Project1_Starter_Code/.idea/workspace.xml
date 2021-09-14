@@ -29,7 +29,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!" />
+    <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!">
+      <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +97,7 @@
       <workItem from="1630967551865" duration="37145000" />
       <workItem from="1631388946091" duration="158000" />
       <workItem from="1631389119751" duration="2968000" />
-      <workItem from="1631551569257" duration="18478000" />
+      <workItem from="1631551569257" duration="18831000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <created>1631025357603</created>
