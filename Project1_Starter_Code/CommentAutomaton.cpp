@@ -48,13 +48,12 @@ void CommentAutomaton::S2(const std::string& input) {
 }
 void CommentAutomaton::S3(const std::string& input) {
     if(index >= input.size()){
-        isEOF = true;
-        //below all brand new. take out of causing problems...
         if(input[index] == '\n'){
             newLines++;
-
         }
         inputRead++;
+        isEOF = true;
+
         Serr();
         //this is if we have reached EOF
     }else if (input[index] != '|') {
@@ -79,7 +78,6 @@ void CommentAutomaton::S4(const std::string& input) {
         //below all brand new. take out of causing problems...
         if (input[index] == '\n') {
             newLines++;
-
         }
         inputRead++;
         Serr();
@@ -90,8 +88,23 @@ void CommentAutomaton::S4(const std::string& input) {
         index++;
         inputRead++;
         //multi line comment complete!!
+    }else if (input[index] == '|'|| isspace(input[index])){
+        if(input[index] == '\n'){
+            newLines++;
+        }
+        index++;
+        inputRead++;
+        S3(input);
+        //send it on back, all apart of the comment
     }else{
-        //not a comment
+        //is an undefined comment
+        //isUndef = true;
+        isEOF = true;
+        if(input[index] == '\n'){
+            newLines++;
+        }
+        //index++;
+        inputRead++;
         Serr();
     }
 }

@@ -12,6 +12,7 @@ protected:
     unsigned int index = 0;
     TokenType type;
     bool isEOF = false;
+    bool isUndef = false;
 
 
 public:
@@ -46,6 +47,8 @@ public:
 
     int NewLinesRead() const { return newLines; }
     bool getEOF(){ return isEOF;}
+    bool getUndef(){ return isUndef;}
+
     void setEOF(bool newEOF){isEOF = newEOF;}
 };
 

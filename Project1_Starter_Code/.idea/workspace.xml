@@ -31,9 +31,27 @@
   <component name="ChangeListManager">
     <list default="true" id="80464324-75c9-451d-a241-4ac23a91a188" name="Default Changelist" comment="first commit!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/Automaton.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommentAutomaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CommentAutomaton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/AddAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/MatcherAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project1_Starter_Code" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project1_Starter_Code" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +94,7 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project1_Starter_Code" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab1PassOffCases/1-100/input1.txt" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="Project1_Starter_Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="Project1_Starter_Code">
+    <configuration name="Project1_Starter_Code" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab1PassOffCases/1-100/input2.txt" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1_Starter_Code" TARGET_NAME="Project1_Starter_Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1_Starter_Code" RUN_TARGET_NAME="Project1_Starter_Code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -100,7 +118,7 @@
       <workItem from="1630967551865" duration="37145000" />
       <workItem from="1631388946091" duration="158000" />
       <workItem from="1631389119751" duration="2968000" />
-      <workItem from="1631551569257" duration="32994000" />
+      <workItem from="1631551569257" duration="36286000" />
     </task>
     <task id="LOCAL-00001" summary="first commit!">
       <created>1631025357603</created>
@@ -146,55 +164,55 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631740464809">
+    <state x="360" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631741347377">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="315" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1631649770002" />
-    <state x="360" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.791@0.25.1440.791" timestamp="1631740464809" />
+    <state x="360" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.791@0.25.1440.791" timestamp="1631741347377" />
     <state x="692" y="129" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1631044820660">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state x="692" y="129" key="#com.intellij.ide.macro.MacrosDialog/0.25.1440.791@0.25.1440.791" timestamp="1631044820660" />
-    <state width="1431" height="291" key="GridCell.Tab.0.bottom" timestamp="1631741223580">
+    <state width="1431" height="257" key="GridCell.Tab.0.bottom" timestamp="1631744598722">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631654705049" />
-    <state width="1431" height="291" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1631741223580" />
-    <state width="1431" height="291" key="GridCell.Tab.0.center" timestamp="1631741223579">
+    <state width="1431" height="257" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1631744598722" />
+    <state width="1431" height="257" key="GridCell.Tab.0.center" timestamp="1631744598721">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1631654705048" />
-    <state width="1431" height="291" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1631741223579" />
-    <state width="1431" height="291" key="GridCell.Tab.0.left" timestamp="1631741223578">
+    <state width="1431" height="257" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1631744598721" />
+    <state width="1431" height="257" key="GridCell.Tab.0.left" timestamp="1631744598718">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1631654705047" />
-    <state width="1431" height="291" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1631741223578" />
-    <state width="1431" height="291" key="GridCell.Tab.0.right" timestamp="1631741223579">
+    <state width="1431" height="257" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1631744598718" />
+    <state width="1431" height="257" key="GridCell.Tab.0.right" timestamp="1631744598722">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1631654705049" />
-    <state width="1431" height="291" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1631741223579" />
-    <state width="1431" height="223" key="GridCell.Tab.1.bottom" timestamp="1631741175655">
+    <state width="1431" height="257" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1631744598722" />
+    <state width="1431" height="278" key="GridCell.Tab.1.bottom" timestamp="1631744567512">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1631654706656" />
-    <state width="1431" height="223" key="GridCell.Tab.1.bottom/0.25.1440.791@0.25.1440.791" timestamp="1631741175655" />
-    <state width="1431" height="223" key="GridCell.Tab.1.center" timestamp="1631741175654">
+    <state width="1431" height="278" key="GridCell.Tab.1.bottom/0.25.1440.791@0.25.1440.791" timestamp="1631744567512" />
+    <state width="1431" height="278" key="GridCell.Tab.1.center" timestamp="1631744567510">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1631654706655" />
-    <state width="1431" height="223" key="GridCell.Tab.1.center/0.25.1440.791@0.25.1440.791" timestamp="1631741175654" />
-    <state width="1431" height="223" key="GridCell.Tab.1.left" timestamp="1631741175654">
+    <state width="1431" height="278" key="GridCell.Tab.1.center/0.25.1440.791@0.25.1440.791" timestamp="1631744567510" />
+    <state width="1431" height="278" key="GridCell.Tab.1.left" timestamp="1631744567510">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1631654706655" />
-    <state width="1431" height="223" key="GridCell.Tab.1.left/0.25.1440.791@0.25.1440.791" timestamp="1631741175654" />
-    <state width="1431" height="223" key="GridCell.Tab.1.right" timestamp="1631741175655">
+    <state width="1431" height="278" key="GridCell.Tab.1.left/0.25.1440.791@0.25.1440.791" timestamp="1631744567510" />
+    <state width="1431" height="278" key="GridCell.Tab.1.right" timestamp="1631744567511">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1631654706656" />
-    <state width="1431" height="223" key="GridCell.Tab.1.right/0.25.1440.791@0.25.1440.791" timestamp="1631741175655" />
+    <state width="1431" height="278" key="GridCell.Tab.1.right/0.25.1440.791@0.25.1440.791" timestamp="1631744567511" />
     <state x="435" y="56" key="SettingsEditor" timestamp="1631677182754">
       <screen x="0" y="25" width="1440" height="791" />
     </state>
@@ -233,8 +251,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CommentAutomaton.cpp</url>
-          <line>21</line>
-          <option name="timeStamp" value="53" />
+          <line>68</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
