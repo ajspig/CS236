@@ -49,12 +49,18 @@ void CommentAutomaton::S2(const std::string& input) {
 void CommentAutomaton::S3(const std::string& input) {
     if(index >= input.size()){
         isEOF = true;
-        newLines++;
-        //inputRead++;
-        //this is if we have reached EOF
-        //how do we send the undefined token to the lexer class?
+        //below all brand new. take out of causing problems...
+        if(input[index] == '\n'){
+            newLines++;
 
+        }
+        inputRead++;
+        Serr();
+        //this is if we have reached EOF
     }else if (input[index] != '|') {
+        if(input[index] == '\n'){
+            newLines++;
+        }
         //keep reading the comment in
         inputRead++;
         index++;
@@ -62,14 +68,27 @@ void CommentAutomaton::S3(const std::string& input) {
 
     }else if(input[index == '|']) {
         index++;
+        inputRead++;
         S4(input);
         //need to complete the comment
     }
 }
 void CommentAutomaton::S4(const std::string& input) {
-    if (input[index] == '#') {
+    if(index >= input.size()) {
+        isEOF = true;
+        //below all brand new. take out of causing problems...
+        if (input[index] == '\n') {
+            newLines++;
+
+        }
+        inputRead++;
+        Serr();
+        //this is if we have reached EOF
+    }else if (input[index] == '#') {
         //this is where the multi line comment ends
-        newLines++;
+        //newLines++;
+        index++;
+        inputRead++;
         //multi line comment complete!!
     }else{
         //not a comment
