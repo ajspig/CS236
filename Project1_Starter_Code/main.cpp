@@ -12,7 +12,7 @@
 using namespace std;
 
 
-int main(int argc, char *argv[]) {
+int main(int argc, char** argv) {
     //verify commandline arguments
     if (argc != 2) {
         std::cout << "usage: " << argv[0] << " input_file" << endl;
@@ -24,30 +24,38 @@ int main(int argc, char *argv[]) {
         cout << "File " << fileName << " could not be found or opened." << endl;
         return 1;
     }
-    //get a pointer to associated buffer object
-    //get and peek
-    //while get peek != endfile
-    filebuf* pbuf = input.rdbuf();
-    //get file size using buffer's members
-    size_t size = pbuf->pubseekoff(0,input.end, input.in);
-    pbuf->pubseekpos(0,input.in);
-    //allocate memory to contain file data
-    char* buffer = new char[size];
-    //get file data
-    pbuf->sgetn(buffer, size);
+    string inputString = "";
+    char c = input.get();
+    while(input.get()){
+        inputString += c;
+        c = input.get();
+    }
     input.close();
-    stringstream  ss;
-    ss.str(buffer);
-    string s = ss.str();
-
-    delete [] buffer;
-    //read the file into a string with get and peek //didnt do this. Did below with rdbuf. not really sure what it is all I know is that it works
-
-    //take the rdbuf from an ifstream and dump that into a stringstream.
-    // then convert the string stream into a string
+//
+//    //get a pointer to associated buffer object
+//    //get and peek
+//    //while get peek != endfile
+//    filebuf* pbuf = input.rdbuf();
+//    //get file size using buffer's members
+//    size_t size = pbuf->pubseekoff(0,input.end, input.in);
+//    pbuf->pubseekpos(0,input.in);
+//    //allocate memory to contain file data
+//    char* buffer = new char[size];
+//    //get file data
+//    pbuf->sgetn(buffer, size);
+//    input.close();
+//    stringstream  ss;
+//    ss.str(buffer);
+//    string s = ss.str();
+//
+//    delete [] buffer;
+//    //read the file into a string with get and peek //didnt do this. Did below with rdbuf. not really sure what it is all I know is that it works
+//
+//    //take the rdbuf from an ifstream and dump that into a stringstream.
+//    // then convert the string stream into a string
 
     Lexer* lexer = new Lexer(); //instantiate an instance of the Lexer class
-    lexer->Run(s); //pass the input to lexer class
+    lexer->Run(inputString); //pass the input to lexer class
     cout << lexer->toString();
 
     delete lexer;//deallocate memory

@@ -12,17 +12,29 @@ Token.h
 sstream
 -
 
-/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommentAutomaton.cpp
-CommentAutomaton.h
-/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommentAutomaton.h
-istream
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.h
+vector
 -
-
-/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/CommentAutomaton.h
 Automaton.h
 /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
 
 /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Token.h
 string
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/main.cpp
+Lexer.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project1_Starter_Code/Lexer.h
+iostream
+-
+string
+-
+sstream
+-
+fstream
+-
+cctype
 -
 
