@@ -5,7 +5,7 @@
       <paths name="Schizo (79879c97-c2f5-4237-8668-1b8c27fec91f)">
         <serverdata>
           <mappings>
-            <mapping deploy="/users/guest/a/as2273/CS236" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="CS236/CS236/Project1_Starter_Code" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

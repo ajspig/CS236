@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
     }
     string inputString = "";
     char c = input.get();
-    while(input.get()){
+    while(input.good()){
         inputString += c;
         c = input.get();
     }
