@@ -36,8 +36,10 @@ public:
     virtual void S0(const std::string& input) = 0;
 
     void Serr() {
+        if(!isEOF){
+            inputRead = 0;
+        }
         // Indicate the input was rejected
-        inputRead = 0;
     }
 
     virtual Token* CreateToken(std::string input, int lineNumber) { return new Token(type, input, lineNumber); }

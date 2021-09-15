@@ -34,10 +34,15 @@ void StringAutomaton::S1(const std::string& input) {
         S2(input);
     }
 }void StringAutomaton::S2(const std::string& input) {
+
     if(index >= input.size()) {
+        if(input[index] == '\n'){
+            newLines++;
+        }
+        inputRead++;
         //we have gone past the size of our input string and should therefore return an undef token
         isEOF = true;
-        newLines++;
+        //newLines++;
         Serr();
     }else if (input[index] != '\'') {
         if(input[index] == '\n'){
@@ -52,6 +57,7 @@ void StringAutomaton::S1(const std::string& input) {
         S3(input);
     }
     else {
+
         Serr();
     }
 }
@@ -61,6 +67,8 @@ void StringAutomaton::S3(const std::string& input) {
         index++;
         S2(input);
     } else {
+
+        //inputRead++;
         index++;
     }
 }
