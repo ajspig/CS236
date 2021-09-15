@@ -37,7 +37,7 @@ void CommentAutomaton::S2(const std::string& input) {
         index++;
         S2(input);
     }else if(input[index] == '\n'){// || index >= input.size()) {
-        newLines++;
+        //newLines++;
         //we reach the end of the a SINGLE line comment
     }else{
         //I dont think we need this section
@@ -53,7 +53,6 @@ void CommentAutomaton::S3(const std::string& input) {
         //inputRead++;
         //this is if we have reached EOF
         //how do we send the undefined token to the lexer class?
-
 
     }else if (input[index] != '|') {
         //keep reading the comment in

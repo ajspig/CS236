@@ -80,15 +80,17 @@ void Lexer::Run(string& input) {
 
         while(isspace(input[0])) {
             if (input[0] == '\n') {
-                maxRead = 1;
+                maxRead =1;
                 lineNumber++;
                 input.erase(0, maxRead);
                 if(input.size() <= 0){
                     break;
                 }
+                maxRead = 0;
             } else {
                 maxRead = 1;
                 input.erase(0, maxRead);
+                maxRead = 0;
             }
         }
         if(input.size() <= 0){
@@ -114,7 +116,7 @@ void Lexer::Run(string& input) {
             tokens->push_back(new Token(TokenType::UNDEFINED, input.substr(0,maxRead-1), lineNumber)); //add newToken to collection of all tokens
             lineNumber += maxAutomaton->NewLinesRead(); //increment lineNumber by maxAutomaton.NewLinesRead()
             break;
-        } else if (maxRead > 1) {
+        } else if (maxRead > 0) {
             Token *newToken = maxAutomaton->CreateToken(input.substr(0,maxRead),lineNumber); //set newToken to maxAutomaton.CreateToken(...)
             lineNumber += maxAutomaton->NewLinesRead(); //increment lineNumber by maxAutomaton.NewLinesRead()
             tokens->push_back(newToken); //add newToken to collection of all tokens
