@@ -11,7 +11,7 @@ protected:
     int newLines = 0;
     unsigned int index = 0;
     TokenType type;
-    bool isEOF;
+    bool isEOF = false;
 
 
 public:

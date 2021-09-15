@@ -75,8 +75,8 @@ void Lexer::Run(string& input) {
         maxRead = 0;
 
         Automaton *maxAutomaton = automata->front(); //set maxAutomaton to the first automaton in automata
-        bool newEOF = false;
-        maxAutomaton->setEOF(newEOF);
+//        bool newEOF = false;
+//        maxAutomaton->setEOF(newEOF);
 
         while(isspace(input[0])) {
             if (input[0] == '\n') {
@@ -109,7 +109,9 @@ void Lexer::Run(string& input) {
         }
 
         // Here is the "Max" part of the algorithm
-        if(maxAutomaton->getEOF()){
+        if((maxAutomaton->getEOF())){
+            //for some reason SCHEMES has isEOF showing up as true;
+
             //as soon as isEOF is true, we know we have an undefined token on our hands
             //should we test it inside of this for loop? or should we do it after we have read through all of the Automaton
             //the automaton that returns this should also return the maxRead, so we can make a substring of this

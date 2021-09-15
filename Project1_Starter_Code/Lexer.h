@@ -18,8 +18,6 @@ private:
 
     void CreateAutomata();
 
-    // TODO: add any other private methods here (if needed)
-
 public:
     Lexer();
     ~Lexer();
@@ -27,8 +25,6 @@ public:
     string toString() const;
 
     void Run(std::string& input);
-    
-    // TODO: add other public methods here
 
 };
 
