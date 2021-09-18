@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project1_Starter_Code"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_Starter_Code">
+				<Option output="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/Project1_Starter_Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Starter_Code"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project1_Starter_Code/fast">
+				<Option output="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/Project1_Starter_Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1_Starter_Code/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abby/Documents/BYU/Fall\ 2021/CS\ 236/CS236/Project\ 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/AddAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/AddAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonDashAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonDashAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommaAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommaAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/IDAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/IDAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/LeftParenAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/LeftParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MatcherAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MatcherAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QueriesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QueriesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/SchemesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/SchemesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/StringAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/StringAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/main.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

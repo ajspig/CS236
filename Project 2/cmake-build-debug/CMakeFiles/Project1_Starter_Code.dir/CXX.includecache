@@ -1,0 +1,228 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/AddAutomaton.cpp
+AddAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/AddAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/AddAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+sstream
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonAutomaton.cpp
+ColonAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonDashAutomaton.cpp
+ColonDashAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonDashAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonDashAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommaAutomaton.cpp
+CommaAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommaAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommaAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.cpp
+CommentAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.h
+istream
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.cpp
+FactsAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/IDAutomaton.cpp
+IDAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/IDAutomaton.h
+ctype.h
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/IDAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/LeftParenAutomaton.cpp
+LeftParenAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/LeftParenAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/LeftParenAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.cpp
+Lexer.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h
+ColonAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonAutomaton.h
+ColonDashAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/ColonDashAutomaton.h
+SchemesAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/SchemesAutomaton.h
+MatcherAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MatcherAutomaton.h
+AddAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/AddAutomaton.h
+CommaAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommaAutomaton.h
+FactsAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.h
+LeftParenAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/LeftParenAutomaton.h
+MultiplyAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.h
+PeriodAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.h
+QMarkAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.h
+RightParenAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.h
+RulesAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.h
+QueriesAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QueriesAutomaton.h
+StringAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/StringAutomaton.h
+CommentAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.h
+IDAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/IDAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h
+vector
+-
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MatcherAutomaton.cpp
+MatcherAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MatcherAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MatcherAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.cpp
+MultiplyAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.cpp
+PeriodAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.cpp
+QMarkAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QueriesAutomaton.cpp
+QueriesAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QueriesAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QueriesAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.cpp
+RightParenAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.cpp
+RulesAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/SchemesAutomaton.cpp
+SchemesAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/SchemesAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/SchemesAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/StringAutomaton.cpp
+StringAutomaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/StringAutomaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/StringAutomaton.h
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.cpp
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+iostream
+-
+sstream
+-
+string
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+string
+-
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/main.cpp
+Lexer.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h
+iostream
+-
+string
+-
+sstream
+-
+fstream
+-
+cctype
+-
+
