@@ -57,7 +57,8 @@ output << "Domain(";
     set<string>::iterator it = domain.begin();
     //while (it != domain.end()){
     for(it = domain.begin(); it != domain.end();it++){
-        output << "  " << (*it) <<  endl;
+        output << "  " << (*it) << endl;
+
     }
         return output.str();
 

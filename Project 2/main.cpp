@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
 
     if(parser->getSyntaxCheck()){
         cout << "Success!" << endl;
-        cout << parser->datalogProgramToString() << endl;
+        cout << parser->datalogProgramToString();
     }else{
         cout << "Failure!" << endl;
         cout << parser->getFailedToken() << endl;
