@@ -30,7 +30,7 @@ string DatalogProgram::datalogProgramToString() {
     if(vectorOfRules.size()>0){
         output << "Rules(" << vectorOfRules.size() << "):" << endl;
         for(unsigned int i =0; i < vectorOfRules.size(); i++){
-            output << " " << vectorOfRules.at(i)->ruleToString();
+            output << "  " << vectorOfRules.at(i)->ruleToString();
         }
     }
     if(predForRules.size()>0){
