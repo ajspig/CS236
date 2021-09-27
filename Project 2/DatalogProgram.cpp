@@ -32,6 +32,9 @@ string DatalogProgram::datalogProgramToString() {
         for(unsigned int i =0; i < vectorOfRules.size(); i++){
             output << "  " << vectorOfRules.at(i)->ruleToString();
         }
+    }else{
+        output << "Rules(0):" << endl;
+
     }
     if(predForRules.size()>0){
         output << "Queries(" << predForRules.size() << "):" << endl;
@@ -40,19 +43,8 @@ string DatalogProgram::datalogProgramToString() {
             output << predForRules.at(i)->predicateToString() << ")?" << endl;
         }
     }
-    //TODO: what is in my domain function??
-    //for things in Facts and NOT in Queries, print it out
-    //domain is everything sorted alphabetically
-    //strings that appear in the Facts section of Datalog Program
-    //go through the parameters in the fact predicates
-    //set<string>
-    //sort the parameter strings
+
 output << "Domain(";
-    //set<string> domain;
-//    for(unsigned int i=0; i <vectorOfFacts.size(); i++){
-//        //dont want ParameterType. I want predicate
-//        domain.insert(vectorOfFacts.at(i)->predicateToString());
-//    }
     output << domain.size() << "):" << endl;
     set<string>::iterator it = domain.begin();
     //while (it != domain.end()){
