@@ -337,6 +337,71 @@ CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.cpp" -o CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s
 
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.cpp" > CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.cpp" -o CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.cpp" > CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.cpp" -o CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.cpp" > CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.cpp" -o CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.cpp" > CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.cpp" -o CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o -c "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.cpp"
+
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.cpp" > CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.cpp" -o CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s
+
 # Object files for target Project1_Starter_Code
 Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o" \
@@ -358,7 +423,12 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o" \
-"CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o"
+"CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o"
 
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
@@ -383,9 +453,14 @@ Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/build.make
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Project1_Starter_Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable Project1_Starter_Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project1_Starter_Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

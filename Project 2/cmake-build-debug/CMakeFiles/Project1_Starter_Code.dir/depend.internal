@@ -26,6 +26,13 @@ CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+CMakeFiles/Project1_Starter_Code.dir/DatalogProgram.cpp.o
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.cpp
@@ -73,11 +80,26 @@ CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.o
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.o
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
 CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Predicate.cpp.o
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.h
 CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.cpp
@@ -93,6 +115,11 @@ CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.cpp
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.o
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.cpp
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.h
 CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.cpp
@@ -113,6 +140,10 @@ CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.h
+ /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
  /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/main.cpp

@@ -115,6 +115,12 @@
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/CommentAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/FactsAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -151,10 +157,28 @@
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/MultiplyAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parser.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/PeriodAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Predicate.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/QMarkAutomaton.cpp">
@@ -173,6 +197,12 @@
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RightParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Rule.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/RulesAutomaton.cpp">

@@ -35,6 +35,9 @@ Lexer::~Lexer() {
 //    tokens->clear();
 //}
 }
+vector<Token*>* Lexer::ReturnTokens() {
+    return tokens;
+}
 
 void Lexer::CreateAutomata() {
     automata->push_back(new ColonAutomaton());
@@ -121,9 +124,13 @@ void Lexer::Run(string& input) {
             lineNumber += maxAutomaton->NewLinesRead(); //increment lineNumber by maxAutomaton.NewLinesRead()
             break;
         } else if (maxRead > 0) {
+
             Token *newToken = maxAutomaton->CreateToken(input.substr(0,maxRead),lineNumber); //set newToken to maxAutomaton.CreateToken(...)
             lineNumber += maxAutomaton->NewLinesRead(); //increment lineNumber by maxAutomaton.NewLinesRead()
             tokens->push_back(newToken); //add newToken to collection of all tokens
+            if(tokens->at(tokens->size()-1)->getType() == TokenType::COMMENT){
+                tokens->pop_back();
+            }
         }
             // No automaton accepted input
             // Create single character undefined token
