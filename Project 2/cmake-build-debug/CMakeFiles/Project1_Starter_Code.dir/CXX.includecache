@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+sstream
+-
+
 /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.cpp
 DatalogProgram.h
 /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.h
@@ -28,6 +34,14 @@ Token.h
 set
 -
 
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h
+vector
+-
+Automaton.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Automaton.h
+Token.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
+
 /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Parameter.h
 string
 -
@@ -49,4 +63,20 @@ Predicate.h
 /Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Token.h
 string
 -
+
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/main.cpp
+Lexer.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/Lexer.h
+iostream
+-
+string
+-
+sstream
+-
+fstream
+-
+cctype
+-
+DatalogProgram.h
+/Users/abby/Documents/BYU/Fall 2021/CS 236/CS236/Project 2/DatalogProgram.h
 
