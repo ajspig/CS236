@@ -36,11 +36,11 @@ string DatalogProgram::datalogProgramToString() {
         output << "Rules(0):" << endl;
 
     }
-    if(predForRules.size()>0){
-        output << "Queries(" << predForRules.size() << "):" << endl;
-        for(unsigned int i =0; i < predForRules.size(); i++){
-            output << "  " << predForRules.at(i)->getParameterType() << "(";
-            output << predForRules.at(i)->predicateToString() << ")?" << endl;
+    if(vectorOfQueries.size() > 0){
+        output << "Queries(" << vectorOfQueries.size() << "):" << endl;
+        for(unsigned int i =0; i < vectorOfQueries.size(); i++){
+            output << "  " << vectorOfQueries.at(i)->getParameterType() << "(";
+            output << vectorOfQueries.at(i)->predicateToString() << ")?" << endl;
         }
     }
 
@@ -210,8 +210,8 @@ void DatalogProgram::parseRule() {
         //we can push it onto the vector of Rules
 
         easyMatching(TokenType::PERIOD);
-        vectorOfRules.push_back(new Rule(headPredForRules,predForRules)); //add newToken to collection of all tokens
-        predForRules.clear();
+        vectorOfRules.push_back(new Rule(headPredForRules, vectorOfQueries)); //add newToken to collection of all tokens
+        vectorOfQueries.clear();
     }catch(Token& tokenThrown){
         tokenThrown.toString();
         //print failure because token was thrown
@@ -252,7 +252,7 @@ void DatalogProgram::parsePredicate(){
         parseParameter();//I am pretty sure everything that follows should just be treated as a normal scheme
         parseParameterList();
         //we have now gone through all the parameters in the predicate and we can push the predicate on to the predicate of rules
-        predForRules.push_back(new Predicate(rulePredicateID,vectorOfParam));
+        vectorOfQueries.push_back(new Predicate(rulePredicateID, vectorOfParam));
         //predForQueries for Queries
         vectorOfParam.clear();
 
@@ -282,7 +282,7 @@ void DatalogProgram::parseParameterList(){
         ++index;
         parseParameter();
         //do I push vector of parameters onto predicate here
-        //predForRules.push_back(vectorOfParam);
+        //vectorOfQueries.push_back(vectorOfParam);
         parseParameterList();
 
     } else { throw (parserTokens->at(index)->toString()); }

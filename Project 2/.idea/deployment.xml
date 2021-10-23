@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="Schizo (5355f7ac-7c3b-49c4-9abd-d8bf238e463b)" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="Schizo (79879c97-c2f5-4237-8668-1b8c27fec91f)">
+      <paths name="Schizo (5355f7ac-7c3b-49c4-9abd-d8bf238e463b)">
         <serverdata>
           <mappings>
-            <mapping deploy="CS236/CS236/Project 2" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="cs236" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-schizo" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

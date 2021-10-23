@@ -14,12 +14,13 @@ class Parameter {
 private:
     string tokenDescription; //string or ID
     //should I also have the ID name
-    //bool isStringOrID = false;//this will help out in project 3
+    bool isStringOrID = false;//this will help out in project 3
 
 public:
     Parameter(string description );
     string parameterToString();
-
+    bool getStringOrID();
+    string getToken(){return tokenDescription;}
 
 };
 

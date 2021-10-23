@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/guest/a/as2273/clionRemote/cs236/Tuple.cpp
+Tuple.h
+/users/guest/a/as2273/clionRemote/cs236/Tuple.h
+
+/users/guest/a/as2273/clionRemote/cs236/Tuple.h
+string
+-
+vector
+-
+sstream
+-
+

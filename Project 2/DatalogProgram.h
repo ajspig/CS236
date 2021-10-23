@@ -18,14 +18,10 @@ using namespace std;
 class DatalogProgram {
 private:
     vector<Parameter *> vectorOfParam;
-    vector<Predicate *> predForRules;
-    Predicate* headPredForRules;
-    vector<Predicate *> vectorOfSchemes;// IDK if this is right
-    //makes my vector pop_back stuff work
-    //vector<Predicate> vectorOfSchemes;
-
-    vector<Predicate *> vectorOfFacts;
     vector<Predicate *> vectorOfQueries;
+    Predicate* headPredForRules;
+    vector<Predicate *> vectorOfSchemes;
+    vector<Predicate *> vectorOfFacts;
     vector<Rule *> vectorOfRules;
 
     //BELOW FROM PARSER
@@ -35,11 +31,13 @@ private:
     string tokenFailedOn;
     set<string> domain;
 
-
-
 public:
     string datalogProgramToString();
-
+    //for my interpreter I think I want getter functions for schemes facts rules nad queries
+    vector<Predicate *> getSchemes(){ return vectorOfSchemes; }
+    vector<Predicate *> getFacts(){ return vectorOfFacts; }
+    vector<Rule *> getRules(){ return vectorOfRules; }
+    vector<Predicate *> getQueries(){ return vectorOfQueries; }
 
     //BELOW FROM PARSER
     DatalogProgram();
@@ -47,10 +45,6 @@ public:
     void easyMatching(TokenType tokenToCompare);
     string getFailedToken();
     void parseDatalogProgram();
-//    vector<Predicate> parseSchemelist();
-//    vector<Predicate> parseFactList();
-//    vector<Rule> parseRuleList();
-//    vector<Predicate> parseQueryList();
     void parseSchemeList();
     void parseFactList();
     void parseRuleList();

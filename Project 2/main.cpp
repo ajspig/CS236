@@ -5,13 +5,10 @@
 #include <fstream>
 #include <cctype> //this is for isspace function
 #include "DatalogProgram.h"
-//char qwerty = '\t'
-//isspace(qwerty); // returns true
-//also use ful for isalpha and isalnum functions (to test if letter or number for ID)
-
-
+#include "Interpreter.h"
+//should I include all the new classes in here?
+#include "Header.h"
 using namespace std;
-
 
 int main(int argc, char** argv) {
     //verify commandline arguments
@@ -36,12 +33,16 @@ int main(int argc, char** argv) {
     Lexer* lexer = new Lexer(); //instantiate an instance of the Lexer class
     lexer->Run(inputString); //pass the input to lexer class
     DatalogProgram *parser = new DatalogProgram();
-    //inside of try
-        parser->parseSyntax(lexer->ReturnTokens()); //pass the tokens to my parser class
+    parser->parseSyntax(lexer->ReturnTokens()); //pass the tokens to my parser class
+    //Interpreter *interpreter = new Interpreter(*parser);
+    //How do I connect my datalogprogram with my interpreter
+    Interpreter *interpreter = new Interpreter(parser);
+    cout << interpreter->toString() <<endl;
 
     if(parser->getSyntaxCheck()){
         cout << "Success!" << endl;
         cout << parser->datalogProgramToString();
+
     }else{
         cout << "Failure!" << endl;
         cout << "  " << parser->getFailedToken();

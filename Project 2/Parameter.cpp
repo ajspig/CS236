@@ -10,3 +10,6 @@ string Parameter::parameterToString(){
 
     return tokenDescription; //this should be S or 12345
 }
+bool Parameter::getStringOrID() {
+    return isStringOrID;
+}
