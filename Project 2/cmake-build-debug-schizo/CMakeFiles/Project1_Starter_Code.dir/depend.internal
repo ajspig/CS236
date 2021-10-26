@@ -50,17 +50,17 @@ CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.o
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/IDAutomaton.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
 CMakeFiles/Project1_Starter_Code.dir/Interpreter.cpp.o
- ../Database.h
- ../DatalogProgram.h
- ../Header.h
- ../Parameter.h
- ../Predicate.h
- ../Relation.h
- ../Rule.h
- ../Token.h
- ../Tuple.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.cpp
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Rule.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Tuple.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Automaton.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/LeftParenAutomaton.cpp
@@ -162,16 +162,16 @@ CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.cpp
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o
- ../Database.h
- ../Relation.h
- ../Tuple.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Automaton.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Lexer.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Rule.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
+ /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Tuple.h
  /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/main.cpp

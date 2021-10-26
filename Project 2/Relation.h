@@ -20,7 +20,7 @@ public:
         theHeader = header;
     }
 
-    Relation* select(int index, string value){
+    Relation* select(unsigned int index, string value){
         Relation* relation = new Relation(theName, theHeader); //make an empty relation
         set<Tuple> newSetOfTuples;
         vector<string> vectorForHeader;

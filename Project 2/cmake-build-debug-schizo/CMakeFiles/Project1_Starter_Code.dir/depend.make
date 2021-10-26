@@ -53,14 +53,14 @@ CMakeFiles/Project1_Starter_Code.dir/Interpreter.cpp.o: \
  ../Database.h \
  ../DatalogProgram.h \
  ../Header.h \
+ ../Interpreter.cpp \
+ ../Interpreter.h \
  ../Parameter.h \
  ../Predicate.h \
  ../Relation.h \
  ../Rule.h \
  ../Token.h \
- ../Tuple.h \
- ../Interpreter.cpp \
- ../Interpreter.h
+ ../Tuple.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: \
  ../Automaton.h \
  ../LeftParenAutomaton.cpp \
@@ -162,16 +162,16 @@ CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: \
  ../Token.cpp \
  ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: \
- ../Database.h \
- ../Relation.h \
- ../Tuple.h \
  ../Automaton.h \
+ ../Database.h \
  ../DatalogProgram.h \
  ../Header.h \
  ../Interpreter.h \
  ../Lexer.h \
  ../Parameter.h \
  ../Predicate.h \
+ ../Relation.h \
  ../Rule.h \
  ../Token.h \
+ ../Tuple.h \
  ../main.cpp

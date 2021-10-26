@@ -6,70 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../Database.h
-map
--
-Relation.h
-../Relation.h
-
-../DatalogProgram.h
-Predicate.h
-../Predicate.h
-Rule.h
-../Rule.h
-Parameter.h
-../Parameter.h
-vector
--
-Token.h
-../Token.h
-set
--
-
-../Header.h
-vector
--
-sstream
--
-
-../Parameter.h
-string
--
-
-../Predicate.h
-string
--
-Parameter.h
-../Parameter.h
-vector
--
-
-../Relation.h
-Tuple.h
-../Tuple.h
-Header.h
-../Header.h
-set
--
-
-../Rule.h
-string
--
-Predicate.h
-../Predicate.h
-
-../Token.h
-string
--
-
-../Tuple.h
-string
--
-vector
--
-sstream
--
-
 /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Automaton.h
 Token.h
 /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
@@ -112,15 +48,15 @@ Interpreter.h
 
 /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h
 Database.h
--
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.h
 DatalogProgram.h
--
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.h
 Relation.h
--
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h
 Header.h
--
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h
 Predicate.h
--
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h
 
 /Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Lexer.h
 vector
