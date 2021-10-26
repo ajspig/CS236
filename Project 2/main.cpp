@@ -37,17 +37,18 @@ int main(int argc, char** argv) {
     //Interpreter *interpreter = new Interpreter(*parser);
     //How do I connect my datalogprogram with my interpreter
     Interpreter *interpreter = new Interpreter(parser);
-    cout << interpreter->toString() <<endl;
+    //cout << interpreter->toString() <<endl;
 
-    if(parser->getSyntaxCheck()){
-        cout << "Success!" << endl;
-        cout << parser->datalogProgramToString();
-
-    }else{
-        cout << "Failure!" << endl;
-        cout << "  " << parser->getFailedToken();
-
-    }
+//    if(parser->getSyntaxCheck()){
+//        cout << "Success!" << endl;
+//        cout << parser->datalogProgramToString();
+//
+//    }else{
+//        cout << "Failure!" << endl;
+//        cout << "  " << parser->getFailedToken();
+//
+//    }
+    cout << interpreter->EvaluateAllQueries();
 
     delete lexer;//deallocate memory
 

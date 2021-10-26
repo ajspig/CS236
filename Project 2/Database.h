@@ -11,9 +11,6 @@ class Database {
 private:
 map<string, Relation* > theDatabase;
 public:
-    Database(string name, Relation* relations ){
-        //theDatabase.insert()
-    }
     Database(){
         //theDatabase =  map<string, relations>();
     }

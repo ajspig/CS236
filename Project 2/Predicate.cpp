@@ -12,6 +12,7 @@ Predicate::Predicate(string theIdValue, vector<Parameter*> theVectorOfParameterO
 
 string Predicate::predicateToString() {
     ostringstream output;
+    output << IDValue << "(";
 
     for(unsigned int i =0; i < vectorOfParameterObjects.size(); i++){
         //so this will just be printing out parameterToString() sep by ,
@@ -20,6 +21,7 @@ string Predicate::predicateToString() {
             output << ",";
         }
     }
+    output << ")? ";
     return output.str();
 }
 

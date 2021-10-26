@@ -21,6 +21,7 @@ public:
     void setAttributes(vector <string> newAttributes){
         attributes = newAttributes;
     }
+    void addAttribute(string attributeToAdd){ attributes.push_back(attributeToAdd);}
     string toString() { //should this just print out the header?
         ostringstream output;
         for(unsigned int i =0; i < attributes.size(); ++i){

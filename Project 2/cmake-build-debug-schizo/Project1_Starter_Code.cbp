@@ -8,260 +8,253 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo"/>
+				<Option working_dir="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo"/>
+				<Option working_dir="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo"/>
+				<Option working_dir="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project1_Starter_Code">
-				<Option output="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Project1_Starter_Code" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo"/>
+				<Option output="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo/Project1_Starter_Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/users/guest/a/as2273/clionRemote/cs236/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 Project1_Starter_Code"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 Project1_Starter_Code"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project1_Starter_Code/fast">
-				<Option output="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Project1_Starter_Code" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo"/>
+				<Option output="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo/Project1_Starter_Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/cmake-build-debug-schizo"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/users/guest/a/as2273/clionRemote/cs236/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 Project1_Starter_Code/fast"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/a/as2273/clionRemote/cs236/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 Project1_Starter_Code/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project\ 2/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/AddAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/AddAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/AddAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/AddAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Automaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Automaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/ColonAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/ColonAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/ColonAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/ColonAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/ColonDashAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/ColonDashAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/ColonDashAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/ColonDashAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/CommaAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/CommaAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/CommaAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/CommaAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/CommentAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/CommentAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/CommentAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/CommentAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Database.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Database.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/DatalogProgram.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/DatalogProgram.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/FactsAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/FactsAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/FactsAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/FactsAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Header.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Header.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/IDAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/IDAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/IDAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/IDAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Interpreter.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/LeftParenAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/LeftParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/LeftParenAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/LeftParenAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Lexer.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Lexer.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Lexer.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Lexer.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/MatcherAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/MatcherAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/MatcherAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/MatcherAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/MultiplyAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/MultiplyAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/MultiplyAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/MultiplyAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Parameter.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Parameter.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Parser.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parser.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Parser.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parser.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/PeriodAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/PeriodAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/PeriodAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/PeriodAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Predicate.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Predicate.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/QMarkAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/QMarkAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/QMarkAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/QMarkAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/QueriesAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/QueriesAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/QueriesAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/QueriesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Relation.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Relation.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/RightParenAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/RightParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/RightParenAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/RightParenAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Rule.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Rule.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Rule.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Rule.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/RulesAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/RulesAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/RulesAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/RulesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/SchemesAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/SchemesAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/SchemesAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/SchemesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/StringAutomaton.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/StringAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/StringAutomaton.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/StringAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Token.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Token.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Tuple.cpp">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Tuple.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/Tuple.h">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/main.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/main.cpp">
-			<Option target="Project1_Starter_Code"/>
-		</Unit>
-		<Unit filename="/users/guest/a/as2273/clionRemote/cs236/CMakeLists.txt">
+		<Unit filename="/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

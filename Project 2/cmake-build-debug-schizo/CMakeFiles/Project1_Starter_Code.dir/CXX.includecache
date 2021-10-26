@@ -6,15 +6,189 @@
 
 #IncludeRegexTransform: 
 
-/users/guest/a/as2273/clionRemote/cs236/Tuple.cpp
-Tuple.h
-/users/guest/a/as2273/clionRemote/cs236/Tuple.h
+../Database.h
+map
+-
+Relation.h
+../Relation.h
 
-/users/guest/a/as2273/clionRemote/cs236/Tuple.h
+../DatalogProgram.h
+Predicate.h
+../Predicate.h
+Rule.h
+../Rule.h
+Parameter.h
+../Parameter.h
+vector
+-
+Token.h
+../Token.h
+set
+-
+
+../Header.h
+vector
+-
+sstream
+-
+
+../Parameter.h
+string
+-
+
+../Predicate.h
+string
+-
+Parameter.h
+../Parameter.h
+vector
+-
+
+../Relation.h
+Tuple.h
+../Tuple.h
+Header.h
+../Header.h
+set
+-
+
+../Rule.h
+string
+-
+Predicate.h
+../Predicate.h
+
+../Token.h
+string
+-
+
+../Tuple.h
 string
 -
 vector
 -
 sstream
 -
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Automaton.h
+Token.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
+sstream
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.cpp
+Database.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.h
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Database.h
+map
+-
+Relation.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.h
+Predicate.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h
+Rule.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Rule.h
+Parameter.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.h
+vector
+-
+Token.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
+set
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h
+vector
+-
+sstream
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.cpp
+Interpreter.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h
+Database.h
+-
+DatalogProgram.h
+-
+Relation.h
+-
+Header.h
+-
+Predicate.h
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Lexer.h
+vector
+-
+Automaton.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Automaton.h
+Token.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.h
+string
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h
+string
+-
+Parameter.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Parameter.h
+vector
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.cpp
+Relation.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Relation.h
+Tuple.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Tuple.h
+Header.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h
+set
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Rule.h
+string
+-
+Predicate.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Predicate.h
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Token.h
+string
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Tuple.h
+string
+-
+vector
+-
+sstream
+-
+
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/main.cpp
+Lexer.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Lexer.h
+iostream
+-
+string
+-
+sstream
+-
+fstream
+-
+cctype
+-
+DatalogProgram.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/DatalogProgram.h
+Interpreter.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Interpreter.h
+Header.h
+/Users/abbyspig/Documents/BYU/Fall2021/CS236/CS236/Project 2/Header.h
 
