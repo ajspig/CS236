@@ -38,7 +38,7 @@ public:
             }
         }
         vector <int> vectorForProject;
-        for(int i =0; i < theHeader->getAttributes().size(); i++){
+        for(unsigned int i =0; i < theHeader->getAttributes().size(); i++){
             if(i != index)
             vectorForProject.push_back(i);
         }
@@ -69,7 +69,7 @@ public:
         //we want newHeader
         //make a vector of strings for newHeader and then declare newHeader with them
         vector<string> forNewHeader;
-        for(int i = 0; i < columnsToKeep.size(); i++){
+        for(unsigned int i = 0; i < columnsToKeep.size(); i++){
             //for each int in columnsToKeep grab the associated column in theHeader and add it to newHeader
             forNewHeader.push_back(theHeader->getAttributes().at(columnsToKeep.at(i)));
             //forNewHeader.push_back(theHeader->getAttributes().at(i));
@@ -81,7 +81,7 @@ public:
     //TODO: below is the error
         for(Tuple t:setOfTuples ) {
             vector<string> newTupleVector;
-            for( int i =0; i < columnsToKeep.size(); i++) {
+            for( unsigned int i =0; i < columnsToKeep.size(); i++) {
                 newTupleVector.push_back(t.getValues().at(columnsToKeep.at(i)));
                 //make a new vector in here
                 //we want to make a straight up new tuple
@@ -116,7 +116,7 @@ public:
         }
         if(!theHeader->getAttributes().empty()) {
             for (Tuple t: setOfTuples) {
-                for (int i = 0; i < theHeader->getAttributes().size(); i++) {
+                for (unsigned int i = 0; i < theHeader->getAttributes().size(); i++) {
                     output << " " << theHeader->getAttributes().at(i) << "=" << t.getValues().at(i);
                     if(i!=theHeader->getAttributes().size()-1){
                         output << ",";

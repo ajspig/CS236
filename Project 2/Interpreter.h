@@ -5,11 +5,11 @@
 #ifndef PROJECT1_STARTER_CODE_INTERPRETER_H
 #define PROJECT1_STARTER_CODE_INTERPRETER_H
 
-#include <Database.h>
-#include <DatalogProgram.h>
-#include <Relation.h>
-#include <Header.h>
-#include <Predicate.h>
+#include "Database.h"
+#include "DatalogProgram.h"
+#include "Relation.h"
+#include "Header.h"
+#include "Predicate.h"
 //connects DatalogProgram and Database
 class Interpreter {
 private:
