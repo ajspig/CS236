@@ -48,7 +48,7 @@ int main(int argc, char** argv) {
 //        cout << "  " << parser->getFailedToken();
 //
 //    }
-    cout << interpreter->EvaluateAllQueries();
+    cout << interpreter->EvaluateAllQueries() <<endl;
 
     delete lexer;//deallocate memory
 
