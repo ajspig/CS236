@@ -112,17 +112,18 @@ public:
         if(setOfTuples.empty()){
             output << "No" <<endl;
         }else{
-            output << "Yes(" << setOfTuples.size() << ")" <<endl << " ";
+            output << "Yes(" << setOfTuples.size() << ")" <<endl;
         }
         if(!theHeader->getAttributes().empty()) {
             for (Tuple t: setOfTuples) {
+                output << "  ";
                 for (unsigned int i = 0; i < theHeader->getAttributes().size(); i++) {
-                    output << " " << theHeader->getAttributes().at(i) << "=" << t.getValues().at(i);
+                    output << theHeader->getAttributes().at(i) << "=" << t.getValues().at(i);
                     if(i!=theHeader->getAttributes().size()-1){
                         output << ",";
                     }
                 }
-                output << endl << " ";
+                output << endl;
             }
         }
         return output.str();
