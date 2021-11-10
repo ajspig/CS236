@@ -104,7 +104,7 @@ Tuple Relation::combineTuples(Tuple one, Tuple two, map<int, int> indexOfHeaderT
     vector<string> vectorForCombinedTuple = one.getValues();
     map<int, int>::iterator it;
     bool unique;
-    for(int i =0; i < two.getValues().size(); i ++){
+    for(unsigned int i =0; i < two.getValues().size(); i ++){
         unique = true;
         for (it = indexOfHeaderToConnect.begin(); it != indexOfHeaderToConnect.end(); it++) {
                 if(i == it->second){
