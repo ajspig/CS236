@@ -24,6 +24,18 @@ string Predicate::predicateToString() {
     output << ")? ";
     return output.str();
 }
+string Predicate::predicateToStringForRules() {
+    ostringstream output;
+
+    for(unsigned int i =0; i < vectorOfParameterObjects.size(); i++){
+        //so this will just be printing out parameterToString() sep by ,
+        output << vectorOfParameterObjects.at(i)->parameterToString();
+        if(i!=vectorOfParameterObjects.size()-1){
+            output << ",";
+        }
+    }
+    return output.str();
+}
 
 void Predicate::setParameter(Parameter* parameterToAdd){
     //this adds the parameter into the vector

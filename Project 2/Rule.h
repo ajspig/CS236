@@ -22,8 +22,7 @@ public:
     Rule(Predicate* headPreddy, vector<Predicate *> bodyPreddy);
     Predicate* getHeadPredicate();
     void setHeadPredicate(string idVal, vector <Parameter*> headPred);
-    //vector <Predicate> getPredicate
-    //should I
+    vector <Predicate*> getRightPredicate();
     //Rule(Predicate headPredicate, );
     string ruleToString();
 

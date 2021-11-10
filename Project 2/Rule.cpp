@@ -12,11 +12,11 @@ Rule::Rule(Predicate *headPreddy, vector<Predicate *> bodyPreddy) {
 
 string Rule::ruleToString(){
     ostringstream output;
-    output << headPredicate->getParameterType() << "(" << headPredicate->predicateToString() <<")";
+    output << headPredicate->getParameterType() << "(" << headPredicate->predicateToStringForRules() <<")";
     output << " :- ";
     for(unsigned int i=0; i < listOfPredicateBody.size(); ++i){
         output << listOfPredicateBody.at(i)->getParameterType() << "(" <<
-        listOfPredicateBody.at(i)->predicateToString() << ")";
+        listOfPredicateBody.at(i)->predicateToStringForRules() << ")";
         if(i!=listOfPredicateBody.size()-1){
             output << ",";
         }
@@ -28,6 +28,9 @@ string Rule::ruleToString(){
 
 Predicate* Rule::getHeadPredicate() {
     return headPredicate;
+}
+vector<Predicate*> Rule::getRightPredicate() {
+    return listOfPredicateBody;
 }
 void Rule::setHeadPredicate(string idVal, vector <Parameter*> headPred) {
     headPredicate = new Predicate(idVal, headPred);

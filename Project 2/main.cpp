@@ -48,6 +48,11 @@ int main(int argc, char** argv) {
 //        cout << "  " << parser->getFailedToken();
 //
 //    }
+    cout <<"Rule Evaluation" << endl;
+    cout << interpreter->EvaluateAllRules() << endl;
+
+
+    cout << "Query Evaluation" <<endl;
     cout << interpreter->EvaluateAllQueries() <<endl;
 
     delete lexer;//deallocate memory

@@ -16,9 +16,11 @@ private:
     DatalogProgram* theDatalogProgram; //stores DatalogProgram as data member
 
     Database* theDatabase = new Database(); //makes database using schemes and facts and stores as data member
+    int howManyTimesRules = 0;
 public:
     Interpreter(DatalogProgram* datalogProgram);
     Relation* EvaluatePredicate(Predicate& p);
+    string EvaluateAllRules();
     string EvaluateAllQueries();
 };
 

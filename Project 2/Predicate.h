@@ -22,6 +22,7 @@ private:
 public:
     Predicate(string theIdValue, vector<Parameter*> theVectorOfParameterObjects);
     string predicateToString();
+    string predicateToStringForRules();
     void setParameter(Parameter* parameterToAdd);
     string getParameterType();
     //void setPredicateVector(Parameter* predVectorToUpdate);
