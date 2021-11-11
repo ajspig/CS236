@@ -102,12 +102,12 @@ Relation *Relation::rename(Header *header) {  //strings for rename
 }
 Tuple Relation::combineTuples(Tuple one, Tuple two, map<int, int> indexOfHeaderToConnect){
     vector<string> vectorForCombinedTuple = one.getValues();
-    map<int, int>::iterator it;
+    map< int, int>::iterator it;
     bool unique;
     for(unsigned int i =0; i < two.getValues().size(); i ++){
         unique = true;
         for (it = indexOfHeaderToConnect.begin(); it != indexOfHeaderToConnect.end(); it++) {
-                if(i == it->second){
+                if( i == (unsigned int) it->second){
                     unique = false;
                 }
             }
