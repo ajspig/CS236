@@ -218,7 +218,7 @@ Relation *Relation::naturalJoin(Relation *relationOne) {
             if(!mapOfCommonColumns.empty()) {
                 if (isJoinable(p, t, mapOfCommonColumns)) {
                     //check for if all the header attributes are the same here
-                    if(mapOfCommonColumns.size() == relationOne->getHeader()->getAttributes().size() || theHeader->getAttributes().size()){
+                    if((mapOfCommonColumns.size() == relationOne->getHeader()->getAttributes().size()) || (mapOfCommonColumns.size() == theHeader->getAttributes().size())){
                         //if they are the same we dont want to combineTuples the same way
                         //should I create my own combineTuples function?
                         //first combine the tuples
