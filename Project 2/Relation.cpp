@@ -101,6 +101,7 @@ Relation *Relation::rename(Header *header) {  //strings for rename
     return relation;
 }
 Tuple Relation::combineTuples(Tuple one, Tuple two, map<int, int> indexOfHeaderToConnect){
+    //we dont wnat to do this if the headers are exactly the same
     vector<string> vectorForCombinedTuple = one.getValues();
     map< int, int>::iterator it;
     bool unique;
@@ -116,16 +117,6 @@ Tuple Relation::combineTuples(Tuple one, Tuple two, map<int, int> indexOfHeaderT
         }
 
     }
-//        if (one.getValues().at(it->first) == two.getValues().at(it->second)) {
-//            unique = true;
-//            //break;
-//        }
-
-        //could do while( i != it->second)
-            //vectorForCombinedTuple.push_back(two.getValues().at(i)
-            //i++
-
-
 
     Tuple newSetOfTuples = vectorForCombinedTuple;
     return newSetOfTuples;
@@ -153,16 +144,16 @@ Header* Relation::combineHeader(Header *one, Header *two) {
 
 bool Relation::isJoinable(Tuple one, Tuple two, map<int, int> indexForOverlap) {
     map<int, int>::iterator it;
-    bool doesItMatch = false;
+    bool doesItMatch = true;
 
     for (it = indexForOverlap.begin(); it != indexForOverlap.end(); it++) {
-        if (one.getValues().at(it->first) == two.getValues().at(it->second)) {
-            doesItMatch = true;
+        if (one.getValues().at(it->first) != two.getValues().at(it->second)) {
+            doesItMatch = false;
             //break;
         }
 
     }
-
+    //going to change this so it has to have all the indexs it needs to have match, match
     //also need to pass in where they are supposed to match
     return doesItMatch;
 }
@@ -226,11 +217,29 @@ Relation *Relation::naturalJoin(Relation *relationOne) {
 
             if(!mapOfCommonColumns.empty()) {
                 if (isJoinable(p, t, mapOfCommonColumns)) {
-                    //if they are joinable add them to the tuples for the combinedRelation
-                    Tuple combinedTuple = combineTuples(p, t, mapOfCommonColumns);
-                    //first combine the tuples
-                    combinedRelation->addTuple(combinedTuple);
-                    //then add the new combined tuple to vector of tuples for the combinedRelation
+                    //check for if all the header attributes are the same here
+                    if(mapOfCommonColumns.size() == relationOne->getHeader()->getAttributes().size() || theHeader->getAttributes().size()){
+                        //if they are the same we dont want to combineTuples the same way
+                        //should I create my own combineTuples function?
+                        //first combine the tuples
+                        //we add the tuples to our vector only if they are exactly the same
+                            //let me check isJoinable to see if it returns true only when tehy are the same
+                        Tuple combinedTuple = p;
+                        combinedRelation->addTuple(combinedTuple);
+                        //then add teh tuples to the vector of tuples for the combineRelation
+                        //check if the tuples are empty
+//                        Tuple combineTuple = sameHeaderCombineTuplesFunction;
+//                        if(!combinedTuple.getValues().empty()){
+//                            combinedRelation->addTuple(combinedTuple);
+//                        }
+                    }else {
+                        //if they are joinable add them to the tuples for the combinedRelation
+                        Tuple combinedTuple = combineTuples(p, t, mapOfCommonColumns);
+                        //first combine the tuples
+                        //check if the tuples are empty
+                        combinedRelation->addTuple(combinedTuple);
+                        //then add the new combined tuple to vector of tuples for the combinedRelation
+                    }
                 }
             }else{
                 vector<string> vectorForCombinedTuple = p.getValues();
@@ -240,8 +249,6 @@ Relation *Relation::naturalJoin(Relation *relationOne) {
                 Tuple combinedTuple = vectorForCombinedTuple;
                 combinedRelation->addTuple(combinedTuple);
             }
-//not quite right because my relation isnt correct when it comes to me and my vector isnt quite right becuase of this
-//////TODODODODOD todo you got this queen
         }
     }
     return combinedRelation;

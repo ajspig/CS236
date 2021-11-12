@@ -27,6 +27,7 @@ public:
     bool isJoinable(Tuple one, Tuple two, map<int, int> indexForOverlap); //also pass in where supposed to match
     bool unionWithDatabase(Relation*);
     Tuple combineTuples(Tuple, Tuple, map<int, int>);
+    Tuple intersectionOfTuples(Tuple, Tuple);
     Relation* naturalJoin(Relation* relationOne);
 
     string toString();
