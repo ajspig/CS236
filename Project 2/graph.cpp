@@ -62,21 +62,24 @@ void graph::DFS(int key, set<int> adjList, vector<bool>& listOfMarkers) {
     //can I push the iterator here too? becuase what if it never enters the for loop?
 }
 
-set<int> graph::DFSWithSCC(int rule, vector<bool> & listOfMarkers) {
-    set<int> SCCToReturn;
+void graph::DFSWithSCC(int rule, vector<bool> & listOfMarkers) {
+    //set<int> SCCToReturn;
     set<int> adjList = mapOfEdges.find(rule)->second;
     //need to mark the node as visited
     listOfMarkers.at(rule) = true;
     for(set<int>::iterator it = adjList.begin(); it != adjList.end(); ++it) {
         if(!listOfMarkers.at(*it)) //if !visited
-            SCCToReturn = DFSWithSCC(*it,listOfMarkers);
+            // I want to insert the values in my SCCToReturn into the current functions SCCToReturn
+            //everytime I run it, it is updating itself with new values
+            //when I instead just want it to
+            DFSWithSCC(*it,listOfMarkers);
             //I don't think this is right because it is just going to set everything to that new SCC
             //one solution to this is to make it a private datamember and update it there
     }
-    SCCToReturn.insert(rule);
+    SCC.insert(rule);
     //is this right?
 
-    return SCCToReturn;
+    //return SCCToReturn;
 }
 
 //void graph::addSCC(set<int> newSCC){

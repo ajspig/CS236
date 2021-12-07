@@ -28,7 +28,8 @@ public:
     void addSCC(set<int> newSCC);
 
     void DFS(int, set<int>, vector<bool>&);
-    set<int> DFSWithSCC(int, vector<bool>&);
+    //set<int> DFSWithSCC(int, vector<bool>&);
+    void DFSWithSCC(int, vector<bool>&);
 
 };
 

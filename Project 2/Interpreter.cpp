@@ -144,7 +144,8 @@ string Interpreter::EvaluateAllRules() {
     while(!postOrder.empty()){
         set<int> currentSCC;
         if(!marker.at(postOrder.top())){ //if ! visited
-            currentSCC = forwardGraph.DFSWithSCC(postOrder.top(), marker);
+            forwardGraph.DFSWithSCC(postOrder.top(), marker);
+            currentSCC = forwardGraph.getSCC();
             //run DFS on node that returns a SCC
             //strongly connected component
         }
