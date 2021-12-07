@@ -95,7 +95,7 @@ string graph::toString() {
         //we then want to loop through the set that is associated with that index
         // and print out each of the ints in the set.
         map<int,set<int>>::iterator it;
-        int size = 0;
+        unsigned int size = 0;
         for(int rule : mapOfEdges.find(i)->second){
             output << "R" << rule;
             if(size != mapOfEdges.find(i)->second.size()-1){
