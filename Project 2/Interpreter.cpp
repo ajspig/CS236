@@ -160,7 +160,7 @@ string Interpreter::EvaluateAllRules() {
     for (unsigned int i = 0; i < ForestOfSCC.size(); i++) {
         set<int> index = ForestOfSCC.at(i);
         cout << "SCC: ";
-        int increment =0;
+        unsigned int increment =0;
         for(int rule : index) {
             increment++;
             cout << "R" << rule;
