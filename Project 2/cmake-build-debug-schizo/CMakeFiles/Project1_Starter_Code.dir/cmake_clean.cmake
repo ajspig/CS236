@@ -26,6 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o"
+  "CMakeFiles/Project1_Starter_Code.dir/graph.cpp.o"
   "CMakeFiles/Project1_Starter_Code.dir/main.cpp.o"
   "Project1_Starter_Code"
   "Project1_Starter_Code.pdb"

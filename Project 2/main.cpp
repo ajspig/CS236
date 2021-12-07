@@ -35,9 +35,8 @@ int main(int argc, char** argv) {
     DatalogProgram *parser = new DatalogProgram();
     parser->parseSyntax(lexer->ReturnTokens()); //pass the tokens to my parser class
     //Interpreter *interpreter = new Interpreter(*parser);
-    //How do I connect my datalogprogram with my interpreter
-    Interpreter *interpreter = new Interpreter(parser);
-    //cout << interpreter->toString() <<endl;
+    Interpreter *interpreter = new Interpreter(parser); //passes Datalog program to initialize interpreter
+
 
 //    if(parser->getSyntaxCheck()){
 //        cout << "Success!" << endl;
@@ -48,7 +47,9 @@ int main(int argc, char** argv) {
 //        cout << "  " << parser->getFailedToken();
 //
 //    }
-    cout <<"Rule Evaluation" << endl;
+
+    //Dependency Graph!
+    //Rule Evaluation"
     cout << interpreter->EvaluateAllRules() << endl;
 
 

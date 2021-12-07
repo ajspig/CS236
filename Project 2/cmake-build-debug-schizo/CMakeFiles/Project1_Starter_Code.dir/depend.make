@@ -60,7 +60,8 @@ CMakeFiles/Project1_Starter_Code.dir/Interpreter.cpp.o: \
  ../Relation.h \
  ../Rule.h \
  ../Token.h \
- ../Tuple.h
+ ../Tuple.h \
+ ../graph.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: \
  ../Automaton.h \
  ../LeftParenAutomaton.cpp \
@@ -161,6 +162,9 @@ CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: \
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: \
  ../Token.cpp \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/graph.cpp.o: \
+ ../graph.cpp \
+ ../graph.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.o: \
  ../Automaton.h \
  ../Database.h \
