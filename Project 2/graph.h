@@ -25,7 +25,7 @@ public:
     map<int, set<int>> getMapOfEdges(){return mapOfEdges;}
     stack<int> getPostOrder(){ return topologialSort;}
     set<int> getSCC(){ return SCC;}
-    void addSCC(set<int> newSCC);
+    void updateSCC(set<int> newSCC){SCC = newSCC;};
 
     void DFS(int, set<int>, vector<bool>&);
     //set<int> DFSWithSCC(int, vector<bool>&);
